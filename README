@@ -1,4 +1,1 @@
-Try: 
-
-(ssh -D1050 guadm.hpc.ucar.edu)
-./fishtool -r socks5://localhost:1050 -n https://10.176.0.3
+This tool implements a small number of operations against the DMTF Redfish API. It is intended for large cluster systems, currently it has been tested primarily against the HPE/Cray Redfish implementation. Currently this is a mostly internal debugging tool but it may someday turn into a more fully featured replacement for tools like ipmitool or IBM's r* family of tools. Currently proof-of-concept quality code.
