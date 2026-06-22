@@ -1,0 +1,11 @@
+[package]
+name = "fishtool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = {version = "*", features = ["full"]}
+reqwest = {version = "*", features = ["json", "socks"]}
+serde_json = "*"
+clap = { version = "*", features=["cargo"]}
+bounded_join_set = { version="*"}
